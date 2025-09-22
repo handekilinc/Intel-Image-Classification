@@ -26,6 +26,7 @@ Street: Sokak ve kentsel manzaralar
 
 
 
+
 Intel Görüntü Sınıflandırma Veri Seti Hakkında:
 
 Her biri 150 piksel * 150 piksel boyutunda yaklaşık 25.000 görüntü
