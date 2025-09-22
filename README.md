@@ -74,6 +74,8 @@ Bu sayede model, sınıf varyasyonlarını daha iyi öğrenmiş ve overfitting r
 
 2️⃣ Model Mimarisi
 
+![1__8ACmO8lDanToRVTc1yemg](https://github.com/user-attachments/assets/34caffa3-f811-48d5-8367-4ec2a3b3c1df)
+
 Base Model: EfficientNetB0, ImageNet üzerinde önceden eğitilmiş olarak kullanılmıştır.
 
 Dense Katmanlar: 256 ve 256 nöronlu iki katman eklenmiştir.
