@@ -22,6 +22,9 @@ Sea: Deniz ve sahil görüntüleri
 
 Street: Sokak ve kentsel manzaralar
 
+<img width="600" height="420" alt="intel-image-classification-dataset-images" src="https://github.com/user-attachments/assets/7fcd1a66-b0bb-46c7-97a0-bc8eaa285d8f" />
+
+
 Intel Görüntü Sınıflandırma Veri Seti Hakkında:
 
 Her biri 150 piksel * 150 piksel boyutunda yaklaşık 25.000 görüntü
