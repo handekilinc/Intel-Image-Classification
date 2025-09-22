@@ -99,6 +99,9 @@ Eğitim ve doğrulama sürecinde accuracy ve loss grafikleri ile performans taki
 
 Veri artırma sayesinde model, özellikle sınıflar arası benzerliklerde daha doğru tahminler yapabilmiştir.
 
+<img width="794" height="812" alt="__results___19_0" src="https://github.com/user-attachments/assets/fcc921dd-f435-4f7f-a5db-b1eaeb13f94e" />
+
+
 📊 Veri Analizi ve Gözlemler
 
 Eğitim sırasında veri artırmanın etkisi gözlemlenmiş ve bazı sınıflarda daha yüksek doğruluk sağlanmıştır (özellikle “forest” ve “mountain” gibi doğal manzaralarda).
