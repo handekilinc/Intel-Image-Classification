@@ -25,10 +25,13 @@ Street: Sokak ve kentsel manzaralar
 <img width="600" height="420" alt="intel-image-classification-dataset-images" src="https://github.com/user-attachments/assets/7fcd1a66-b0bb-46c7-97a0-bc8eaa285d8f" />
 
 
+
 Intel Görüntü Sınıflandırma Veri Seti Hakkında:
 
 Her biri 150 piksel * 150 piksel boyutunda yaklaşık 25.000 görüntü
 Altı kategori vardır: Binalar(0), Orman(1), Buzul(2), Dağ(3), Deniz(4) ve Sokak(5).
+
+![1_7Bjr3Pu4N-n-LwmmFju83Q](https://github.com/user-attachments/assets/256475ae-e8bd-4fc9-afe2-4be108f0fa61)
 
 Tüm eğitim verileri klasörlere ayrılmıştır.
 Dizin 3 klasörden oluşur: Seq_train(14k örnek), Seq_test(7k örnek) ve Seq_pred(3k örnek).
@@ -52,6 +55,9 @@ Sahne görsellerini doğru bir şekilde sınıflandırmak.
 Veri artırma (augmentation) ve mixed precision teknikleri ile model eğitimini hızlandırmak ve genelleme performansını artırmak.
 
 Modelin farklı sınıflarda yüksek doğruluk sağlayabilmesini sağlamak ve overfitting’i önlemek.
+
+<img width="1024" height="576" alt="best-image-classification-models-1" src="https://github.com/user-attachments/assets/d0ee70ea-e350-4086-a693-31645187abc7" />
+
 
 📝 Proje Özeti
 
