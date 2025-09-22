@@ -4,7 +4,7 @@
 
 Proje Kaggle Linki: Intel Image Classification Dataset
 
-📂 Dataset Information
+** 📂 Dataset Information **
 
 Bu proje, Intel tarafından sağlanan sahne sınıflandırma veri seti kullanılarak gerçekleştirilmiştir. Veri seti, farklı sahne türlerini temsil eden görsellerden oluşur ve 6 ana sınıfa ayrılmıştır:
 
