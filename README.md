@@ -4,7 +4,7 @@
 
 Proje Kaggle Linki: Intel Image Classification Dataset
 
-** 📂 Dataset Information **
+📂 Dataset Information
 
 Bu proje, Intel tarafından sağlanan sahne sınıflandırma veri seti kullanılarak gerçekleştirilmiştir. Veri seti, farklı sahne türlerini temsil eden görsellerden oluşur ve 6 ana sınıfa ayrılmıştır:
 
@@ -120,6 +120,7 @@ Bu proje, transfer learning ve modern CNN mimarilerinin sahne sınıflandırma g
 
 📌 Referanslar
 
-Intel Image Classification Dataset: Kaggle
+**Dataset:** [Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
 
-Tan, M., Le, Q.V. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. ICML 2019
+**Reference Paper:** _Tan, M., Le, Q.V. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. ICML 2019_
+
