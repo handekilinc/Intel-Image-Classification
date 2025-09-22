@@ -8,6 +8,8 @@ Proje Kaggle Linki: Intel Image Classification Dataset
 
 Bu proje, Intel tarafından sağlanan sahne sınıflandırma veri seti kullanılarak gerçekleştirilmiştir. Veri seti, farklı sahne türlerini temsil eden görsellerden oluşur ve 6 ana sınıfa ayrılmıştır:
 
+![1_hacj-pIrC_lOesy4hObdWQ](https://github.com/user-attachments/assets/98ff73e8-865c-4621-8548-57b592317286)
+
 Buildings: Bina ve şehir yapıları
 
 Forest: Orman ve ağaç manzaraları
