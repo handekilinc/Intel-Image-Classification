@@ -111,7 +111,7 @@ Ayrıca, eğitim sonrası accuracy/loss grafiklerinin çizdirilmesi ile modelin 
 
 5️⃣ Performans ve Değerlendirme
 
-Model, validation set üzerinde %95’in üzerinde doğruluk elde etmiştir.
+Model, validation set üzerinde %85’in üzerinde doğruluk elde etmiştir.
 
 Eğitim ve doğrulama sürecinde accuracy ve loss grafikleri ile performans takip edilmiştir.
 
@@ -134,13 +134,23 @@ Dataset yolunu ayarlayın ve train_generator ile val_generator oluşturun. Model
 
 Eğitim tamamlandıktan sonra en iyi model final_efficientnet.h5 dosyası olarak kaydedilecektir.
 
-📊 Sonuçlar
-Model, validation set üzerinde yüksek doğruluk sağlamıştır:
+ 📊 Test Seti Performansı ve Sınıf Bazlı Değerlendirme
 
-Metric	Score
-Train Accuracy	%96
-Val Accuracy	%95
-Test Accuracy	%94
+Model, test setinde %85 doğruluk ile tahmin yapabilmektedir. Bu, Intel Image Classification veri seti gibi karmaşık ve çeşitlilik gösteren sahne görselleri üzerinde oldukça güçlü bir performans olarak değerlendirilebilir.
+
+Sınıf	Precision	Recall	F1-Score	Destek
+Buildings	0.84	0.88	0.86	437
+Forest	0.96	0.98	0.97	474
+Glacier	0.82	0.81	0.82	553
+Mountain	0.87	0.67	0.76	525
+Sea	0.75	0.91	0.82	510
+Street	0.89	0.87	0.88	501
+
+Accuracy: 0.85 → Test setinde model genel olarak %85 doğru tahmin yapıyor.
+
+Macro & Weighted Avg: Precision, recall ve F1-score da yaklaşık 0.85. Bu, modelin sınıflar arasında dengeli performans gösterdiğini ortaya koyuyor.
+
+Gözlem: Mountain sınıfında recall biraz düşük (%67), bu nedenle model bazı mountain görsellerini diğer sınıflarla karıştırabiliyor. Glacier ve Sea sınıflarında ise yüksek doğruluk elde edilmiştir.
 
 👉 Veri artırma (augmentation) sayesinde model, özellikle forest ve mountain gibi sınıflarda daha başarılı sonuçlar elde etmiştir.
 
@@ -148,6 +158,8 @@ Test Accuracy	%94
 Eğitim sırasında accuracy ve loss grafikleri incelenmiştir.
 
 Ayrıca confusion matrix kullanılarak modelin en çok karıştırdığı sınıflar gözlemlenmiştir.
+
+<img width="788" height="701" alt="confusion matrix" src="https://github.com/user-attachments/assets/5b2b8993-fd21-4e0d-b942-589911556585" />
 
 
 📊 Veri Analizi ve Gözlemler
@@ -174,7 +186,7 @@ Intel Image Classification projesi, sahne sınıflandırma problemini çözmek i
 
 Mixed precision ve veri artırma ile modelin eğitim süresi optimize edilmiştir.
 
-Fine-tuning ile modelin genelleme performansı artırılmış ve %85+ doğruluk sağlanmıştır.
+Fine-tuning ile modelin genelleme performansı artırılmış ve %88,5 doğruluk sağlanmıştır.
 
 Bu proje, transfer learning ve modern CNN mimarilerinin sahne sınıflandırma görevlerinde ne kadar etkili olduğunu göstermektedir.
 
