@@ -1,0 +1,59 @@
+# ----------------------------
+# Python / Jupyter / TensorFlow
+# ----------------------------
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs & caches
+*.log
+*.out
+*.err
+*.tmp
+*.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Coverage / test reports
+.coverage
+coverage.xml
+htmlcov/
+
+# SQLite database files
+db.sqlite3
+db.sqlite3-journal
+
+# TensorFlow / PyTorch / ML artifacts
+*.tfrecord
+*.h5
+*.pth
+*.ckpt*
+checkpoint/
+logs/
+events.out.tfevents.*
+
+# Build & distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / editor specific
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
