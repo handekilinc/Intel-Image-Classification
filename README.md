@@ -51,7 +51,7 @@ Projenin temel amaçları şunlardır:
 
 Sahne görsellerini doğru bir şekilde sınıflandırmak.
 
-Önceden eğitilmiş bir EfficientNetB0 modeli kullanarak yüksek doğruluk (%95+) elde etmek.
+Önceden eğitilmiş bir EfficientNetB0 modeli kullanarak yüksek doğruluk (%85+) elde etmek.
 
 Veri artırma (augmentation) ve mixed precision teknikleri ile model eğitimini hızlandırmak ve genelleme performansını artırmak.
 
@@ -94,7 +94,19 @@ Optimizer: Adam kullanılmış, learning rate stage1 için 0.001 ve stage2 için
 
 Mixed Precision: FP16 kullanılarak TPU/GPU hızlandırması sağlanmıştır.
 
-4️⃣ Performans ve Değerlendirme
+4️⃣ Eğitim Sürecini İzleme
+
+Model eğitimi sırasında performans takibi için şu callback’ler kullanılmıştır:
+
+EarlyStopping → Val accuracy gelişmediğinde erken durdurma.
+
+ReduceLROnPlateau → Öğrenme oranını dinamik düşürme.
+
+ModelCheckpoint → En iyi val accuracy’ye sahip modeli kaydetme.
+
+Ayrıca, eğitim sonrası accuracy/loss grafiklerinin çizdirilmesi ile modelin öğrenme eğrileri incelenmiştir.
+
+5️⃣ Performans ve Değerlendirme
 
 Model, validation set üzerinde %95’in üzerinde doğruluk elde etmiştir.
 
@@ -129,7 +141,7 @@ Intel Image Classification projesi, sahne sınıflandırma problemini çözmek i
 
 Mixed precision ve veri artırma ile modelin eğitim süresi optimize edilmiştir.
 
-Fine-tuning ile modelin genelleme performansı artırılmış ve %95+ doğruluk sağlanmıştır.
+Fine-tuning ile modelin genelleme performansı artırılmış ve %85+ doğruluk sağlanmıştır.
 
 Bu proje, transfer learning ve modern CNN mimarilerinin sahne sınıflandırma görevlerinde ne kadar etkili olduğunu göstermektedir.
 
