@@ -129,18 +129,9 @@ Veri artırma sayesinde model, özellikle sınıflar arası benzerliklerde daha 
    import numpy as np
    import matplotlib.pyplot as plt
    from tensorflow.keras.preprocessing.image import ImageDataGenerator
-Dataset yolunu ayarlayın ve train_generator ile val_generator oluşturun.
 
-Modeli eğitmek için:
+Dataset yolunu ayarlayın ve train_generator ile val_generator oluşturun. Modeli eğitin.
 
-python
-Copy code
-history = model.fit(
-    train_generator,
-    validation_data=val_generator,
-    epochs=20,
-    callbacks=[early_stop, reduce_lr, checkpoint]
-)
 Eğitim tamamlandıktan sonra en iyi model final_efficientnet.h5 dosyası olarak kaydedilecektir.
 
 📊 Sonuçlar
