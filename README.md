@@ -190,7 +190,7 @@ Fine-tuning ile modelin genelleme performansı artırılmış ve %88,5 doğruluk
 
 Bu proje, transfer learning ve modern CNN mimarilerinin sahne sınıflandırma görevlerinde ne kadar etkili olduğunu göstermektedir.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 📌 Referanslar
 
