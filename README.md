@@ -2,7 +2,10 @@
 
 ![0_S4LF1ObkVh2ke-I-](https://github.com/user-attachments/assets/c76dbd9a-828d-4f97-b8a5-4964093b2bbe)
 
-Proje Kaggle Linki: Intel Image Classification Dataset
+## 📌 Proje Kaggle Linki
+
+[Intel Image Classification Dataset](https://www.kaggle.com/code/handekln/intel-image-classification)
+
 
 📂 Dataset Information
 
