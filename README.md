@@ -119,6 +119,45 @@ Veri artırma sayesinde model, özellikle sınıflar arası benzerliklerde daha 
 
 <img width="794" height="812" alt="__results___19_0" src="https://github.com/user-attachments/assets/fcc921dd-f435-4f7f-a5db-b1eaeb13f94e" />
 
+## 🚀 Nasıl Çalıştırılır?
+
+1. Projeyi **Kaggle** veya **Google Colab** üzerinde açabilirsiniz.
+2. Dataset'i yükleyin: [Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
+3. Gerekli kütüphanelerin yüklü olduğundan emin olun:
+   ```python
+   import tensorflow as tf
+   import numpy as np
+   import matplotlib.pyplot as plt
+   from tensorflow.keras.preprocessing.image import ImageDataGenerator
+Dataset yolunu ayarlayın ve train_generator ile val_generator oluşturun.
+
+Modeli eğitmek için:
+
+python
+Copy code
+history = model.fit(
+    train_generator,
+    validation_data=val_generator,
+    epochs=20,
+    callbacks=[early_stop, reduce_lr, checkpoint]
+)
+Eğitim tamamlandıktan sonra en iyi model final_efficientnet.h5 dosyası olarak kaydedilecektir.
+
+📊 Sonuçlar
+Model, validation set üzerinde yüksek doğruluk sağlamıştır:
+
+Metric	Score
+Train Accuracy	%96
+Val Accuracy	%95
+Test Accuracy	%94
+
+👉 Veri artırma (augmentation) sayesinde model, özellikle forest ve mountain gibi sınıflarda daha başarılı sonuçlar elde etmiştir.
+
+📌 Örnek Çıktılar
+Eğitim sırasında accuracy ve loss grafikleri incelenmiştir.
+
+Ayrıca confusion matrix kullanılarak modelin en çok karıştırdığı sınıflar gözlemlenmiştir.
+
 
 📊 Veri Analizi ve Gözlemler
 
